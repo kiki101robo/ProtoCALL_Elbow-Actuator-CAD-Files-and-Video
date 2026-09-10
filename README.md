@@ -1,8 +1,9 @@
-# ProtoCall — Elbow Actuator (CAD Files & Demo Video)
+# ProtoCall — Trigger Switch Emulator (CAD Files & Demo Video)
 
-Mechanical and motor-control design for the elbow actuator used in **ProtoCall**, a wearable haptic exoskeleton
-developed at the University of Maryland's UMIACS Embodied Dynamics Lab (accepted as a paper to **UIST 2026**).
-This capstan-driven BLDC actuation module delivers ProtoCall's forearm correction feedback.
+Software-controlled trigger-switch emulator built for **ProtoCall**, a wearable haptic exoskeleton developed
+at the University of Maryland's UMIACS Embodied Dynamics Lab (accepted as a paper to **UIST 2026**). Uses a
+**PhotoMOS AQV255** solid-state relay to replace a mechanical switch, letting firmware actuate the trigger
+directly instead of relying on a physical press.
 
 ## Demo Video
 
@@ -14,13 +15,13 @@ Designed in **Fusion 360**, exported as `.stl`. Files are in the [`Cad Files`](.
 
 ## Repo Contents
 
-- `Cad Files/` — STL exports of the elbow actuator mechanism
+- `Cad Files/` — STL exports of the mechanical housing
 - `Photos and Videos/` — supporting photos and video from testing/assembly
 
 ## Part of ProtoCall
 
-This actuator is one of the sub-systems integrated into ProtoCall, alongside the headgear mechanism. See
-the full project on my [portfolio](https://kiki101robo.github.io/#protocall-card).
+This module is one of the sub-systems integrated into ProtoCall, alongside the neckband actuator. See the
+full project on my [portfolio](https://kiki101robo.github.io/#protocall-card).
 
 ---
 
